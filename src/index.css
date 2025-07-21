@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* If body has the dropdown-active class, then disable all elements inside it. */
+body.dropdown-active * {
+  pointer-events: none !important;
+  user-select: none;
+}
+
+/* But allow dropdown to work */
+body.dropdown-active .dropdown-menu,
+body.dropdown-active .dropdown-menu * {
+  pointer-events: auto !important;
+  user-select: auto;
+}

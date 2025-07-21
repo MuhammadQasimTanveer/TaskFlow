@@ -1,0 +1,115 @@
+.cards {
+  width: auto;
+  height: auto;
+  border: 1px solid rgb(210, 218, 225);
+  margin: 10px 10px 16px 10px;
+  padding: 13px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  position: relative;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.card-header h3 {
+    padding-top: 5px;
+    font-size: 15px;
+    color: #374151;
+}
+
+.grip-icon {
+    padding: 2px;
+    border-radius: 3px;
+    color: #6b7280; 
+}
+
+.grip-icon:hover {
+    background-color: rgba(130, 166, 187, 0.2);
+    color: rgb(130, 166, 187);  
+}
+
+.dropdown-menu {
+    position: absolute;
+    background: white;
+    border: 1px solid rgb(209, 217, 224);
+    z-index: 1000;
+    padding: 4px 4px 0px 4px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    border-radius: 5px;
+    right: 18px;
+}
+
+.dropdown-menu button {
+    padding: 6px 9px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12.5px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #374151;
+}
+
+.dropdown-menu button:hover {
+    background-color: rgb(130, 166, 187);
+    color: white;
+}
+
+.dropdown-menu button.drop-delete {
+    color: #dc3545;
+    background-color: transparent;
+}
+
+.dropdown-menu button.drop-delete:hover {
+    background-color: #ef4444;
+    color: white;
+}
+
+.timeInfo{
+    padding-left: 8px;
+    font-size: 12.6px;
+    color: rgb(142,148, 147);
+}
+
+.DescDiv {
+    margin-top: 12px;
+}
+
+.desc-toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color:  rgb(59, 71, 83);
+    font-size: 12px;
+    padding: 4px 0px 4px 10px;
+    margin-left: 8px;
+    white-space: nowrap;
+    width: 97%; 
+}
+
+.desc-toggle-btn:hover {
+   color: white;
+   background-color: rgb(94, 184, 174);
+}
+
+.desc-toggle-btn p {
+    margin: 0;
+}
+
+.desc-text {
+    color: #6b7280;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    padding-left: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
